@@ -1,0 +1,59 @@
+body {
+    background-image: url(../images/back.png);
+    background-position: bottom;
+
+}
+
+h1, h2 {
+    color: brown;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.footer_container {
+    border-top: solid;
+    border-color: dimgrey;
+    border-width: thin;
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+
+.nav {
+    list-style: none;
+
+
+
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    box-shadow: 3px 5px 10px dimgrey;
+    margin-left: 5px;
+
+}
+
+.main_img {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 3px 5px 10px dimgrey;
+
+}
+
+.search {
+    display: flex;
+    justify-content: right;
+
+
+
+}

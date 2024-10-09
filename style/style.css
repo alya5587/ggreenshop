@@ -84,6 +84,8 @@ a {
 }
 header {
     padding-top: 30px;
+    margin-bottom: 12px;
+
 }
 .container {
     max-width: 1200px;
@@ -146,4 +148,69 @@ display: block;
 }
 header nav li:hover:after {
     width: 100%;
+}
+
+/* welcome to greenshop section */
+
+
+
+.welcome_container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+    padding-left: 43px;
+}
+
+
+.welcome_article {
+    max-width: 557px;
+    padding-bottom: 68px;
+
+}
+.invite {
+    margin-bottom: 7px;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3d3d3d;
+}
+.slogan  {
+
+    font-weight: 900;
+    font-size: 66px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #3d3d3d;
+
+}
+.green_slogan_part {
+    color: #46a358;
+
+}
+.about_shop_short {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #727272;
+    margin-bottom: 44px;
+}
+.shop_now {
+    padding: 11px 27px 9px 26px ;
+    background: #46A358;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+
+
+}
+
+.welcome_section_img {
+    max-width: 507px;
 }

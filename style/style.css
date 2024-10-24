@@ -355,6 +355,7 @@ header nav li:hover:after {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 99px;
 
 
 }
@@ -362,7 +363,7 @@ header nav li:hover:after {
 .main_product_items article {
     max-width: 250px;
     background-color: #FBFBFB;
-    margin-bottom: 70px;
+
 
 
 }
@@ -385,21 +386,24 @@ header nav li:hover:after {
     display: flex;
     justify-content: right;
     gap: 10px;
-    margin-left: auto;
+
 }
 
-.right_side .peiger li {
+.right_side .peiger li{
     border: 1px solid #E5E5E5;
     border-radius: 4px;
     color: #3D3D3D;
-    width: 35px;
+    display: inline-flex;
 
-    text-align: center;
-    margin-bottom: 94px;
 
 }
+.right_side .peiger li a {
 
-.right_side .peiger li:hover {
+padding-left: 15px;
+    padding-right: 15px;
+}
+
+.right_side .peiger li a:hover {
     background-color: #46A358;
     color: #FFFFFF;
 
@@ -423,37 +427,36 @@ header nav li:hover:after {
 
 
 }
+.spechial_flowers {
+    margin-bottom: 140px;
+    justify-content: space-between;
 
+
+}
+.spechial_flowers .container {
+    display: flex;
+}
 .spechial_flowers article {
-
     background-color: #FBFBFB;
     font-family: Cera Pro;
-    margin-bottom: 140px;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+   align-items: center;
+
+
 }
 
-.spechial_flowers_text {
-    text-align: right;
-    margin-right: 30px;
-}
+
 
 .spechial_flowers article h3 {
 
     font-size: 18px;
     font-weight: 900;
     line-height: 24px;
-
-    margin-top: 90px;
     margin-bottom: 9px;
     font-family: Cera Pro;
+
 }
 
-.margin-bottom-20 {
-    display: block;
-    margin-bottom: 20px
-}
 
 .spechial_flowers article p {
 
@@ -524,7 +527,6 @@ header nav li:hover:after {
 
 .blog article {
     background: #fbfbfb;
-    margin-right: 44px;
     max-width: 268px;
 
 
@@ -625,3 +627,4 @@ background-image: url("../images/arrow_read_more_black.svg");
     line-height: 0;
 
 }
+

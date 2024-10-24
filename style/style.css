@@ -241,7 +241,7 @@ header nav li:hover:after {
 }
 
 .welcome_section_img {
-    max-width: 507px;
+    width: 507px;
 }
 
 /*product sections */
@@ -363,10 +363,17 @@ header nav li:hover:after {
 .main_product_items article {
     max-width: 250px;
     background-color: #FBFBFB;
-
-
+    margin-bottom: 70px;
+border-top: solid 1px #FFFFFF;
 
 }
+
+.main_product_items article:hover {
+    border-top: 1px solid #46A358;
+
+}
+
+
 
 .main_product_items article a {
     text-decoration: none;
@@ -441,6 +448,8 @@ padding-left: 15px;
     font-family: Cera Pro;
     display: flex;
    align-items: center;
+    text-align: right;
+    padding-right: 30px;
 
 
 }
